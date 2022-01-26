@@ -1,0 +1,21 @@
+{
+    "name": "zems-bot-template",
+    "version": "1.0.0",
+    "description": "Discord bot template using discord.js v13.6.0",
+    "main": "index.js",
+    "scripts": {
+        "start": "node .",
+        "dev": "nodemon index.js",
+        "guild": "node utils/deploy.js guild",
+        "global": "node utils/deploy.js global"
+    },
+    "author": "Zemyoro",
+    "license": "ISC",
+    "dependencies": {
+        "@discordjs/rest": "^0.3.0",
+        "discord-api-types": "^0.26.1",
+        "discord.js": "^13.6.0",
+        "dotenv": "^14.3.2",
+        "fs": "^0.0.1-security"
+    }
+}
